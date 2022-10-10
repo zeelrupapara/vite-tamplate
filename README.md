@@ -5,3 +5,21 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 ## Recommended IDE Setup
 
 - [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+
+## Usage
+
+```bash
+npx semantic-release-cli setup
+```
+Then enter npm credential for create `NPM_TOKEN` in github secret
+
+##### After complete installation semantic-release-cli :
+
+```javascript
+# package.json
+
+"scripts": {
+    "semantic-release": "semantic-release --branches main"
+},
+```
+
